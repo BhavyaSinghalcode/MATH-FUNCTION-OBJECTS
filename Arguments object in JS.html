@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>title</title>
+</head>
+<body>
+    <P id="abc"></P>
+    <script>
+        function findMAX(){
+            var i 
+            var max=0
+            for(i=0;i<arguments.length;i++){
+                if(arguments[i]>max){
+                    max=arguments[i]
+                }
+            }
+            return max
+        }
+        document.getElementById("abc").innerHTML=findMAX(10,3,6,100,7,4,200,50)
+    </script>
+</body>
+</html>
